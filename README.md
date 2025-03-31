@@ -83,7 +83,7 @@ where Country = "Canada";
 select * from Orders
 where Order_Date between '2023-11-1' and '2023-11-30';
 ```
-5: **etrive the total stock of books available**
+5: **retrive the total stock of books available**
 ```sql
 select sum(Stock) as Total_Stock from Books;
 ```
